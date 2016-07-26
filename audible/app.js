@@ -33,5 +33,6 @@ export default (store) => {
         }
     })
     say(`Welcome to ${document.title}; type help to hear what you can do.`)
+    debugger;
     return Promise.resolve()
 }
